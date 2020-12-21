@@ -4,7 +4,8 @@
   padding: 0;
 }
 .block {
-  width: 100%;
+  margin: 0 auto;
+  width: 80%;
   background: #f5f8ff;
 }
 .header {
@@ -59,39 +60,60 @@
   background: #cdced3;
   border: none;
 }
-.picture{
+.content-block {
   width: 100%;
-  height:570px ;
+  height: 570px;
+  background-image: url("https://img1.goodfon.ru/original/1920x1408/1/d1/nebo-oblaka-sky.jpg");
+  background-size: cover;
+  background-position: bottom;
+  filter: contrast(0.8);
 }
-.wrapper-block{
+.wrapper-content {
   display: flex;
   width: 100%;
-  height:100%;
+  height: 100%;
   align-items: center;
   justify-content: center;
+  filter: contrast(2);
 }
-.bl-fir-text{
+.text-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.slogan-uppercase {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 20px;
   line-height: 12px;
-  background: #3D4F9F
+  color: #3d4f9f;
 }
-.bl-sec-text{
+.slogan-big {
   font-family: Quicksand;
   font-style: normal;
   font-weight: 300;
   font-size: 48px;
   line-height: 60px;
-  background:#3D4F9F
+  color: #445394;
 }
-
-.bl-third-text{
+.bold {
+  font-weight: 550;
+}
+.wrapper-content-text {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.content-text {
+  display: flex;
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 15px;
   line-height: 29px;
-  background: #8D96BD
+  width: 60%;
+  color: #445394;
+  justify-self: center;
 }
